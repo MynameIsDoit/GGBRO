@@ -51,7 +51,7 @@ Write.Print("[?] Scraping Proxies . . .\n", Colors.red_to_yellow, interval=0)
 http = open('proxy.txt','wb')
 socks4 = open('proxies-socks4.txt','wb')
 socks5 = open('proxies-socks5.txt','wb')
-allp = open('proxy.txt','wb')
+allp = open('proxyall.txt','wb')
 
 # HTTP Proxies Sources
 h = requests.get("https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-https.txt")
